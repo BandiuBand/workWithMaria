@@ -18,7 +18,7 @@ public class Main {
             // for you, but you can always add more by pressing Ctrl+F8.
             System.out.println("i = " + i);
         }
-        int[] array2 = new int[]{1,1,1,2,2,3,4,5,6,0};
+        int[] array2 = new int[]{1,1,1,2,2,3,4,0,6,0};
         System.out.println("Sum of elements");
         System.out.println(SumOfElements.start(array));
         System.out.println("Amount even");
@@ -37,6 +37,10 @@ public class Main {
         System.out.println("Amount of same elements");
         System.out.println(Arrays.toString(array2));
         System.out.println(AmountSameElement.start(array2));
+        System.out.println("Delete zero elements");
+        System.out.println(Arrays.toString(DeleteZero.start(array)));
+        System.out.println(Arrays.toString(DeleteZero.start(array2)));
+
 
     }
 }
