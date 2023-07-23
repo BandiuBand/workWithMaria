@@ -1,0 +1,48 @@
+package arrays;
+
+import java.util.Arrays;
+
+public class CheckTask {
+    public static void start()
+        {
+            int n = 15;
+            int[] array = new int[n];
+            // Press Shift+F10 or click the green arrow button in the gutter to run the code.
+            for (int i = 1; i <= n; i++) {
+                array[i-1]=i;
+                // Press Shift+F9 to start debugging your code. We have set one breakpoint
+                // for you, but you can always add more by pressing Ctrl+F8.
+                System.out.println("i = " + i);
+            }
+            int[] array2 = new int[]{1,1,1,2,2,3,4,0,6,0};
+            System.out.println("Sum of elements");
+            System.out.println(SumOfElements.start(array));
+            System.out.println("Amount even");
+            System.out.println(AmountEven.start(array));
+            System.out.println("Amount numbers can div to 3");
+            System.out.println(AmountNumbOfDivTo3.start(array));
+            System.out.println("Average");
+            System.out.println(Average.start(array));
+            System.out.println("Max");
+            System.out.println(MAX.start(array));
+            System.out.println("Min");
+            System.out.println(MIN.start(array));
+            System.out.println("Reverse");
+            System.out.println(Arrays.toString(array));
+            System.out.println(Arrays.toString(Reverse.start(array)));
+            System.out.println("Amount of same elements");
+            System.out.println(Arrays.toString(array2));
+            System.out.println(AmountSameElement.start(array2));
+            System.out.println("Delete zero elements");
+            System.out.println(Arrays.toString(DeleteZero.start(array)));
+            System.out.println(Arrays.toString(DeleteZero.start(array2)));
+            System.out.println("Second minimum element");
+            System.out.println(SecondMin.start(array));
+            System.out.println(SecondMin.start(array2));
+            System.out.println("Sum of elements it the even position");
+            System.out.println(Arrays.toString(array));
+            System.out.println(Arrays.toString(array2));
+            System.out.println(SumElementsInEvenPos.start(array));
+            System.out.println(SumElementsInEvenPos.start(array2));
+        }
+}
