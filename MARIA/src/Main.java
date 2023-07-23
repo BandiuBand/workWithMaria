@@ -43,6 +43,11 @@ public class Main {
         System.out.println("Second minimum element");
         System.out.println(SecondMin.start(array));
         System.out.println(SecondMin.start(array2));
+        System.out.println("Sum of elements it the even position");
+        System.out.println(Arrays.toString(array));
+        System.out.println(Arrays.toString(array2));
+        System.out.println(SumElementsInEvenPos.start(array));
+        System.out.println(SumElementsInEvenPos.start(array2));
 
 
     }
