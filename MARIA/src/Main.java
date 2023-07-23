@@ -40,6 +40,9 @@ public class Main {
         System.out.println("Delete zero elements");
         System.out.println(Arrays.toString(DeleteZero.start(array)));
         System.out.println(Arrays.toString(DeleteZero.start(array2)));
+        System.out.println("Second minimum element");
+        System.out.println(SecondMin.start(array));
+        System.out.println(SecondMin.start(array2));
 
 
     }
