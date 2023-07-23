@@ -1,5 +1,7 @@
 import arrays.*;
 
+import java.util.Arrays;
+
 // Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
 // then press Enter. You can now see whitespace characters in your code.
 public class Main {
@@ -28,6 +30,9 @@ public class Main {
         System.out.println(MAX.start(array));
         System.out.println("Min");
         System.out.println(MIN.start(array));
+        System.out.println("Reverse");
+        System.out.println(Arrays.toString(array));
+        System.out.println(Arrays.toString(Reverse.start(array)));
 
     }
 }
