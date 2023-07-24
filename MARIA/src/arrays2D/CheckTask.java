@@ -16,6 +16,10 @@ public class CheckTask {
         System.out.println(arrays2D.MIN.start(array2));
         System.out.println("Max of array elements");
         System.out.println(arrays2D.MAX.start(array2));
+        int[][] array3 = new int[][]{{3,0,5,6,0},{2,0,8},{0,0,0,0,0,0,0,0,0,0,0,0},{1,1,1,1,1}};
+        System.out.println("Amount of zero elements");
+        print(array3);
+        System.out.println(arrays2D.AmountZeroElements.start(array3));
 
     }
     public static void print(int[][] array)
