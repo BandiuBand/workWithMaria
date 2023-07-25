@@ -28,6 +28,10 @@ public class CheckTask {
         print(array);
         System.out.println("----------------------------");
         print(Trans.start(array));
+        System.out.println("Sum of Cow elements");
+        print(array);
+        System.out.println("----------------------------");
+        System.out.println(Arrays.toString(SumCowEl.start(array)));
 
     }
     public static void print(int[][] array)
