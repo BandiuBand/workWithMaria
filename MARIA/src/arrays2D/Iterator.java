@@ -3,11 +3,21 @@ package arrays2D;
 public class Iterator {
     private int j = 0;
     private int i = 0;
+    private int r = 0;
+    private int c = 0;
     private int[][] array;
     public Iterator(int[][] array)
     {
         this.array = array;
     }
+    public boolean availableRow()
+    {
+        return (r<array.length);
+    }
+    //public boolean availableCol()
+    //{
+    //    return (c < array[?].length);
+    //}
     public boolean available ()
     {
         return (i < array.length)&&(j<array[i].length);
@@ -25,5 +35,12 @@ public class Iterator {
             }
         else throw new RuntimeException("IndexOfBoundException");
         return el;
+    }
+    public int[] nextRow()
+    {
+        if (availableRow())
+        {r++;
+            return array[r-1];}
+        else throw new RuntimeException("IndexOfBoundException");
     }
 }
