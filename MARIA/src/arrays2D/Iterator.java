@@ -36,6 +36,10 @@ public class Iterator {
         else throw new RuntimeException("IndexOfBoundException");
         return el;
     }
+    public int getIndexRow()
+    {
+        return r;
+    }
     public int[] nextRow()
     {
         if (availableRow())

@@ -20,6 +20,10 @@ public class CheckTask {
         System.out.println("Amount of zero elements");
         print(array3);
         System.out.println(arrays2D.AmountZeroElements.start(array3));
+        System.out.println("Sum of Row elements");
+        print(array3);
+        System.out.println("----------------------------");
+        System.out.println(Arrays.toString(SumRowEl.start(array3)));
 
     }
     public static void print(int[][] array)
