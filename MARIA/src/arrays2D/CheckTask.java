@@ -24,6 +24,10 @@ public class CheckTask {
         print(array3);
         System.out.println("----------------------------");
         System.out.println(Arrays.toString(SumRowEl.start(array3)));
+        System.out.println("Transposition array");
+        print(array);
+        System.out.println("----------------------------");
+        print(Trans.start(array));
 
     }
     public static void print(int[][] array)
