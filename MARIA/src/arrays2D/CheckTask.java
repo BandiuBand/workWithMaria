@@ -41,6 +41,10 @@ public class CheckTask {
         System.out.println("Check of symmetric");
         print(array5);
         System.out.println(Simetr.start(array5));
+        System.out.println("Multiplication elements of row");
+        print(array2);
+        System.out.println("__________________________________");
+        System.out.println(Arrays.toString(RowMultip.start(array2)));
     }
     public static void print(int[][] array)
     {
