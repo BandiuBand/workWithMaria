@@ -3,7 +3,7 @@ package arrays2D;
 import java.util.Arrays;
 
 public class CheckTask {
-    public static void start() {
+    public static void start() throws Exception {
         int[][] array = new int[][]{{1, 2, 3, 4, 5}, {5, 4, 3, 2, 1}};
         System.out.println("Sum of elements");
         print(array);
@@ -33,6 +33,14 @@ public class CheckTask {
         System.out.println("----------------------------");
         System.out.println(Arrays.toString(SumCowEl.start(array)));
 
+        int[][] array4 = new int[][]{{0,1,2,3,6},{1,-1,4,5,7},{2,4,-2,6,8},{3,5,6,-3,9},{6,7,8,9,-4}};
+        System.out.println("Check of symmetric");
+        print(array4);
+        System.out.println(Simetr.start(array4));
+        int[][] array5 = new int[][]{{0,1,2,3,6},{1,-1,4,3,7},{2,4,-2,6,8},{3,5,6,-3,9},{6,7,8,9,-4}};
+        System.out.println("Check of symmetric");
+        print(array5);
+        System.out.println(Simetr.start(array5));
     }
     public static void print(int[][] array)
     {

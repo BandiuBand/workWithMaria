@@ -13,7 +13,7 @@ public class Trans {
         }
         return result;
     }
-    private static boolean checkPoss(int[][] array)
+    public static boolean checkPoss(int[][] array)
     {
         for (int i = 1; i < array.length; i++) {
             if (array[i].length!=array[i-1].length)
