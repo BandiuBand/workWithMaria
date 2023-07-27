@@ -45,6 +45,9 @@ public class CheckTask {
         print(array2);
         System.out.println("__________________________________");
         System.out.println(Arrays.toString(RowMultip.start(array2)));
+        System.out.println("Max of Row Sum");
+        print(array2);
+        System.out.println(MaxSumRow.start(array2));
     }
     public static void print(int[][] array)
     {
