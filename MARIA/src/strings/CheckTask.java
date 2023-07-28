@@ -1,7 +1,7 @@
 package strings;
 
 public class CheckTask {
-    static String string = "AbcdeA  a a if";
+    static String string = "AbcdeA  ashg adfsg if";
     static String string2 = "AbccbA";
     static String string3 = "AbcdcbA";
     public static void start()
@@ -21,5 +21,7 @@ public class CheckTask {
         System.out.println(ChPolindr.start(string3));
         System.out.println("To upper case " + "\"" + string3 + "\"");
         System.out.println(UpperCase.start(string3));
+        System.out.println("Change each word to length of it " + "\"" + string + "\"");
+        System.out.println(ChangeWordToLength.start(string));
     }
 }
