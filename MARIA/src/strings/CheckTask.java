@@ -19,5 +19,7 @@ public class CheckTask {
         System.out.println(ChPolindr.start(string2));
         System.out.println("Check is polindrom " + "\"" + string3 + "\"");
         System.out.println(ChPolindr.start(string3));
+        System.out.println("To upper case " + "\"" + string3 + "\"");
+        System.out.println(UpperCase.start(string3));
     }
 }
