@@ -23,5 +23,7 @@ public class CheckTask {
         System.out.println(UpperCase.start(string3));
         System.out.println("Change each word to length of it " + "\"" + string + "\"");
         System.out.println(ChangeWordToLength.start(string));
+        System.out.println("Trim the line " + "\"" + string + "\"");
+        System.out.println(DeleteExtraSpase.start(string));
     }
 }
