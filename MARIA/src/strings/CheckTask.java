@@ -4,6 +4,7 @@ public class CheckTask {
     static String string = "AbcdeA  ashg adfsg if";
     static String string2 = "AbccbA";
     static String string3 = "AbcdcbA";
+    static String string4 = "Абсд іфдж oooii";
     public static void start()
     {
         System.out.println("Reverse of \""+string+"\"");
@@ -25,5 +26,7 @@ public class CheckTask {
         System.out.println(ChangeWordToLength.start(string));
         System.out.println("Trim the line " + "\"" + string + "\"");
         System.out.println(DeleteExtraSpase.start(string));
+        System.out.println("Count vowels " + "\"" + string4 + "\"");
+        System.out.println(VowelsCount.start(string4));
     }
 }
