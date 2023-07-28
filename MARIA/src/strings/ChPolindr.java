@@ -6,7 +6,7 @@ public class ChPolindr {
         int middle = string.length()/2;
         String first_part = string.substring(0,middle);
         String second_part = string.substring(string.length()-middle,string.length());
-        return first_part.compareTo(Reverse.start(second_part))==0;
+        return first_part.equals(Reverse.start(second_part));
 
     }
 }
