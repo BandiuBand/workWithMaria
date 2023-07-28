@@ -28,5 +28,7 @@ public class CheckTask {
         System.out.println(DeleteExtraSpase.start(string));
         System.out.println("Count vowels " + "\"" + string4 + "\"");
         System.out.println(VowelsCount.start(string4));
+        System.out.println("Count words " + "\"" + string + "\"");
+        System.out.println(CountWords.start(string));
     }
 }
