@@ -30,5 +30,13 @@ public class CheckTask {
         System.out.println(VowelsCount.start(string4));
         System.out.println("Count words " + "\"" + string + "\"");
         System.out.println(CountWords.start(string));
+        System.out.println("Is Anagram ");
+        System.out.println(string4);
+        System.out.println(Reverse.start(string4));
+        System.out.println(IsAnagram.start(string4,Reverse.start(string4)));
+        System.out.println("Is Anagram ");
+        System.out.println(string4);
+        System.out.println(Reverse.start(string3));
+        System.out.println(IsAnagram.start(string4,string3));
     }
 }
