@@ -30,5 +30,8 @@ public class CheckTask {
         System.out.print("Connect all Strings");
         System.out.println(list);
         System.out.println(ConnectAllStr.start(list));
+        System.out.print("Delete the copy of line");
+        System.out.println(list);
+        System.out.println(DeleteCopy.start(list));
     }
 }
