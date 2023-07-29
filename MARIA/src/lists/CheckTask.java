@@ -44,7 +44,11 @@ public class CheckTask {
         System.out.println("Count of words in lines");
         System.out.println(list);
         System.out.println(CountWords.start(list));
-        //System.out.println(list.get(3));
-        //System.out.println(strings.CountWords.start(list.get(4)));
+        System.out.println("_________________________________________________");
+        System.out.println("Change \"AbcdeA\" to \"Word\"");
+        System.out.println(list);
+        System.out.println(ReplaceWord.start(list,"AbcdeA","Word"));
+
+
     }
 }
