@@ -33,5 +33,8 @@ public class CheckTask {
         System.out.print("Delete the copy of line");
         System.out.println(list);
         System.out.println(DeleteCopy.start(list));
+        System.out.print("Sort by length");
+        System.out.println(list);
+        System.out.println(SortByLength.start(list));
     }
 }
