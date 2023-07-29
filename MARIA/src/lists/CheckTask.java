@@ -24,17 +24,27 @@ public class CheckTask {
         System.out.println("Most longer String from the list");
         System.out.println(list);
         System.out.println(MostLongerSt.start(list));
+        System.out.println("_________________________________________________");
         System.out.print("Is contain word - ");
         System.out.println(list);
         System.out.println(IsContainWord.start(list,"AbcdeA"));
+        System.out.println("_________________________________________________");
         System.out.print("Connect all Strings");
         System.out.println(list);
         System.out.println(ConnectAllStr.start(list));
-        System.out.print("Delete the copy of line");
+        System.out.println("_________________________________________________");
+        //System.out.print("Delete the copy of line");
+        //System.out.println(list);
+        //System.out.println(DeleteCopy.start(list));
+        //System.out.println("_________________________________________________");
+        //System.out.print("Sort by length");
+        //System.out.println(list);
+        //System.out.println(SortByLength.start(list));
+        //System.out.println("_________________________________________________");
+        System.out.println("Count of words in lines");
         System.out.println(list);
-        System.out.println(DeleteCopy.start(list));
-        System.out.print("Sort by length");
-        System.out.println(list);
-        System.out.println(SortByLength.start(list));
+        System.out.println(CountWords.start(list));
+        //System.out.println(list.get(3));
+        //System.out.println(strings.CountWords.start(list.get(4)));
     }
 }
