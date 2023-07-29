@@ -6,7 +6,7 @@ import java.util.ArrayList;
 
 public class CheckTask {
     static String string = "AbcdeA  ashg adfsg if";
-    static String string2 = "AbccbA";
+    static String string2 = "AbcdeA";
     static String string3 = "AbcdcbA";
     static String string4 = "Абсд іфдж oooii";
     static ArrayList<String> list = new ArrayList<>();
@@ -24,5 +24,8 @@ public class CheckTask {
         System.out.println("Most longer String from the list");
         System.out.println(list);
         System.out.println(MostLongerSt.start(list));
+        System.out.print("Is contain word - ");
+        System.out.println(list);
+        System.out.println(IsContainWord.start(list,"AbcdeA"));
     }
 }
