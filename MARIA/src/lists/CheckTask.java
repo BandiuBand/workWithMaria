@@ -27,5 +27,8 @@ public class CheckTask {
         System.out.print("Is contain word - ");
         System.out.println(list);
         System.out.println(IsContainWord.start(list,"AbcdeA"));
+        System.out.print("Connect all Strings");
+        System.out.println(list);
+        System.out.println(ConnectAllStr.start(list));
     }
 }
