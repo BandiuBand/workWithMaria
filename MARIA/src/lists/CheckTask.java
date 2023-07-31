@@ -1,7 +1,5 @@
 package lists;
 
-import strings.*;
-
 import java.util.ArrayList;
 
 public class CheckTask {
@@ -52,6 +50,10 @@ public class CheckTask {
         System.out.println("Reverse lines");
         System.out.println(list);
         System.out.println(ReverseLines.start(list));
+        System.out.println("_________________________________________________");
+        System.out.println("Delete palindrome lines");
+        System.out.println(list);
+        System.out.println(DeletePal.start(list));
 
 
     }
