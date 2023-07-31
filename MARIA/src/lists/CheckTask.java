@@ -48,6 +48,10 @@ public class CheckTask {
         System.out.println("Change \"AbcdeA\" to \"Word\"");
         System.out.println(list);
         System.out.println(ReplaceWord.start(list,"AbcdeA","Word"));
+        System.out.println("_________________________________________________");
+        System.out.println("Reverse lines");
+        System.out.println(list);
+        System.out.println(ReverseLines.start(list));
 
 
     }
