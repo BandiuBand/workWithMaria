@@ -54,6 +54,9 @@ public class CheckTask {
         System.out.println("Delete palindrome lines");
         System.out.println(list);
         System.out.println(DeletePal.start(list));
+        System.out.println("Create map");
+        System.out.println(list);
+        System.out.println(MapStAm.start(list));
 
 
     }
