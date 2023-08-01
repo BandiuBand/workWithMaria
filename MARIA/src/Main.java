@@ -10,7 +10,7 @@ public class Main {
         // IntelliJ IDEA suggests fixing it.
         System.out.printf("Hello and welcome!\n");
         //arrays2D.CheckTask.start();
-        lists.CheckTask.start();
+        regex.CheckTask.start();
 
 
     }
