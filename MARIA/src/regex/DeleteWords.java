@@ -8,11 +8,6 @@ public class DeleteWords {
     {
         Pattern pattern = Pattern.compile("\\w++");
         Matcher matcher = pattern.matcher(str);
-        StringBuilder stringBuilder = new StringBuilder(str);
-//        while (matcher.find()) {
-//            stringBuilder.delete(matcher.start(), matcher.end());
-//        }
-
         return  matcher.replaceAll("");
     }
 }
