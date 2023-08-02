@@ -60,6 +60,9 @@ public class CheckTask {
         System.out.println("Is oly letter or number");
         System.out.println(example6);
         System.out.println(IsOnlLetNumb.start(example6));
+        System.out.println("Change vowels to *");
+        System.out.println(example6);
+        System.out.println(ChangeVavesToAst.start(example6));
 
 
     }
