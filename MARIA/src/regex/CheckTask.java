@@ -8,6 +8,9 @@ public class CheckTask {
     private static String example5 = "А";
     private static String example6 = "fIrst word? 8 7 6 5 %^&$ 4%^&^ 5%$ second\\ word";
     private static String example7 = "fIrst word? 8 12-05-2023 7 6 5 %^&$ 2023-07-22 4%^&^ 5%$ second\\ word";
+
+    private static String example8 = "AF8";
+    private static String example9 = "LF8";
     public static void start()
     {
         System.out.println("Is email");
@@ -44,7 +47,13 @@ public class CheckTask {
         System.out.println("Delete data format dd-mm-yyyy");
         System.out.println(example7);
         System.out.println(DeleteData.start(example7));
+        System.out.println("Is Hexadecimal");
+        System.out.println(example8);
+        System.out.println(IsHexadecimal.start(example8));
         //System.out.println(example3);
+        System.out.println("Is Hexadecimal");
+        System.out.println(example9);
+        System.out.println(IsHexadecimal.start(example9));
 
 
     }
