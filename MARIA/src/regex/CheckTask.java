@@ -54,6 +54,12 @@ public class CheckTask {
         System.out.println("Is Hexadecimal");
         System.out.println(example9);
         System.out.println(IsHexadecimal.start(example9));
+        System.out.println("Is oly letter or number");
+        System.out.println(example9);
+        System.out.println(IsOnlLetNumb.start(example9));
+        System.out.println("Is oly letter or number");
+        System.out.println(example6);
+        System.out.println(IsOnlLetNumb.start(example6));
 
 
     }
