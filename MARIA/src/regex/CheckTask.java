@@ -11,6 +11,8 @@ public class CheckTask {
 
     private static String example8 = "AF8";
     private static String example9 = "LF8";
+
+    private static String example10 = "fIrst wo<a href=\"https://www.example.com\">Посилання на приклад</a>rd? 8 12-05-2023 7 6 5 %^&$<a href=\"https://www.example.com\">Посилання на приклад</a> 2023-07-22 <sdjfvbj>4%^&^ 5%$ second\\ word";
     public static void start()
     {
         System.out.println("Is email");
@@ -63,6 +65,9 @@ public class CheckTask {
         System.out.println("Change vowels to *");
         System.out.println(example6);
         System.out.println(ChangeVavesToAst.start(example6));
+        System.out.println("Extract ref");
+        System.out.println(example10);
+        System.out.println(ExtractRef.start(example10));
 
 
     }
